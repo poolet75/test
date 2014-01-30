@@ -14,6 +14,14 @@
 
 @implementation ViewController
 
+#pragma mark - IBAction
+
+-(IBAction)clickButton:(id)sender
+{
+    NSLog(@"This is a gi tuttorial button clicked");
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
