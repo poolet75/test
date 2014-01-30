@@ -21,6 +21,7 @@
 		15359E6C189A4B0A0059C3B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15359E4E189A4B090059C3B3 /* UIKit.framework */; };
 		15359E74189A4B0A0059C3B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15359E72189A4B0A0059C3B3 /* InfoPlist.strings */; };
 		15359E76189A4B0A0059C3B3 /* testGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15359E75189A4B0A0059C3B3 /* testGitTests.m */; };
+		1589C5E7189A564800B119FA /* MapFotr.m in Sources */ = {isa = PBXBuildFile; fileRef = 1589C5E6189A564800B119FA /* MapFotr.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		15359E71189A4B0A0059C3B3 /* testGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testGitTests-Info.plist"; sourceTree = "<group>"; };
 		15359E73189A4B0A0059C3B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15359E75189A4B0A0059C3B3 /* testGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testGitTests.m; sourceTree = "<group>"; };
+		1589C5E5189A564800B119FA /* MapFotr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapFotr.h; sourceTree = "<group>"; };
+		1589C5E6189A564800B119FA /* MapFotr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapFotr.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				15359E5C189A4B090059C3B3 /* Main.storyboard */,
 				15359E5F189A4B090059C3B3 /* ViewController.h */,
 				15359E60189A4B090059C3B3 /* ViewController.m */,
+				1589C5E5189A564800B119FA /* MapFotr.h */,
+				1589C5E6189A564800B119FA /* MapFotr.m */,
 				15359E62189A4B090059C3B3 /* Images.xcassets */,
 				15359E51189A4B090059C3B3 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15359E61189A4B090059C3B3 /* ViewController.m in Sources */,
+				1589C5E7189A564800B119FA /* MapFotr.m in Sources */,
 				15359E5B189A4B090059C3B3 /* AppDelegate.m in Sources */,
 				15359E57189A4B090059C3B3 /* main.m in Sources */,
 			);
